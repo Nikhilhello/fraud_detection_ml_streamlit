@@ -2,9 +2,10 @@
 
 ## 30-Second Setup
 
-\`\`\`bash
+
+```
 # 1. Create virtual environment
-python -m venv venv
+`python -m venv venv`
 
 # 2. Activate it
 source venv/bin/activate  # macOS/Linux
@@ -16,18 +17,24 @@ pip install -r requirements.txt
 
 # 4. Run application
 streamlit run app.py
-\`\`\`
+```
+
 
 That's it! Open your browser to http://localhost:8501
 
 ## First-Time Usage
+---
+## 🖥️ Streamlit Pages Overview
+| Page                     | Purpose                                                |
+| ------------------------ | ------------------------------------------------------ |
+| 🏠 **Home**              | Overview, features & workflow                          |
+| 🔍 **Single Prediction** | Real-time fraud detection                              |
+| 📊 **Batch Analysis**    | CSV upload → Prediction summary & charts               |
+| 📈 **Model Performance** | Metrics, ROC-AUC, confusion matrix, feature importance |
+| 📚 **Dataset Info**      | Kaggle dataset details & feature descriptions          |
+| ℹ️ **About**             | Architecture, methodology & credits                    |
 
-1. **Home Tab**: Review system overview and metrics
-2. **Single Prediction Tab**: Enter sample transaction data
-3. **Batch Analysis Tab**: Upload CSV with multiple transactions
-4. **Model Performance Tab**: See detailed evaluation metrics
-5. **Analytics Tab**: View visualizations and statistics
-6. **About Tab**: Learn how the system works
+---
 
 ## Sample Transaction
 
@@ -51,7 +58,7 @@ Expected: HIGH RISK (Fraudulent)
 
 ## Common Commands
 
-\`\`\`bash
+```
 # Update dependencies
 pip install --upgrade -r requirements.txt
 
@@ -66,12 +73,11 @@ black *.py backend/*.py
 
 # Check code style
 pylint *.py backend/*.py
-\`\`\`
+```
 
 ## Need Help?
 
-1. Read **README.md** - Comprehensive documentation
-2. Review **INSTALLATION_GUIDE.md** - Setup help
+1. Read **README.md** - Comprehensive documentationp
 
 ## Performance Tips
 
@@ -80,7 +86,6 @@ pylint *.py backend/*.py
 - Batch processing is fastest for multiple transactions
 - Use "Load Sample Data" for quick testing
 
-
 ---
 
-Start detecting fraud in 30 seconds!
+🎯 Start detecting fraud in under 30 seconds!
