@@ -115,4 +115,9 @@ The system generates:
 
 ---
 
+<img width="1916" height="1032" alt="image" src="https://github.com/user-attachments/assets/171f9392-1223-4813-80f1-34cf2b5a835d" />
+<img width="1915" height="1028" alt="image" src="https://github.com/user-attachments/assets/82da4120-5203-4cf4-bff0-8e2d02a51216" />
+
+
+
 
