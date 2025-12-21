@@ -1,8 +1,9 @@
-streamlit
-numpy
-pandas
-scikit-learn==1.3.2
-imbalanced-learn==0.11.0
-joblib
-plotly
-
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+imbalanced-learn>=0.12
+requests>=2.31.0
+Flask>=2.3.3
+Flask-CORS>=4.0.0
+plotly>=5.24.0
+streamlit>=1.39.0
